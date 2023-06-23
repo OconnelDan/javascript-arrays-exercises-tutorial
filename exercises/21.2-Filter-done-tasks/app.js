@@ -10,3 +10,9 @@ let tasks = [
 ];
 
 //your code here
+let tareasIncompletas = tasks.filter(function(tasks){
+	return tasks.done;
+
+});
+
+console.log(tareasIncompletas);
